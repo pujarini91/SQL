@@ -1,0 +1,6 @@
+Assignment 08 Solutions
+Q-15. Write an SQL query to fetch intersecting records of two tables.
+Ans: SELECT <Column_names> FROM table_1 INTERSECT SELECT <Column_names> FROM table_2;
+
+Q-16. Write an SQL query to show records from one table that another table does not have.
+Ans: SELECT * FROM table_1 EXCEPT SELECT * FROM table_2;
