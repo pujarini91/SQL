@@ -1,0 +1,9 @@
+Assignment 01 Solutions
+Q-1. Write an SQL query to fetch “FIRST_NAME” from Worker table using the alias name as<WORKER_NAME>.
+Ans: SELECT FIRST_NAME AS WORKER_NAME FROM Worker;
+
+Q-2. Write an SQL query to fetch unique values of DEPARTMENT from Worker table.
+Ans: SELECT DISTINCT DEPARTMENT FROM Worker;
+
+Q-3. Write an SQL query to show the last 5 record from a table.
+Ans: SELECT * from Worker ORDER by id DESC LIMIT 5;
